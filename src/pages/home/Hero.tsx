@@ -5,7 +5,7 @@ import { Header } from "../../components";
 
 const Hero = () => {
   return (
-    <div className=" w-full h-screen bg-[url('src/assets/nex-bg.jpg')] bg-center bg-cover flex justify-center items-center  relative ">
+    <div className=" w-full h-screen bg-[url('public/nex-bg.jpg')] bg-center bg-cover flex justify-center items-center  relative ">
       <div className="bg-[#000000b0] h-screen absolute w-screen flex flex-col  lg:gap-30 gap-7">
         <div className=" flex justify-center items-center p-4 ">
           <Header />

@@ -5,7 +5,7 @@ import { Footer, Header } from "../components"
 
 const SignInLayout = () => {
   return (
-    <div className="bg-[url('src/assets/bg-sigin.png')] bg-center bg-cover ">
+    <div className="bg-[url('public/bg-sigin.png')] bg-center bg-cover ">
         <Header/>
         
         <Outlet/>
