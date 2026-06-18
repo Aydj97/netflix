@@ -2,8 +2,8 @@
 const More = () => {
   return (
     <div className="w-full  bg-[#000000]  ">
-        <div className="w-[30%] flex items-center justify-center ml-2 lg:ml-0 md:ml-0 lg:w-[99%] pt-6  ">
-            <div className=" w-[85%]  grid gap-3 pb-3    ">
+        <div className="w-[30%] flex items-center justify-center  lg:w-[99%] pt-6  ">
+            <div className=" lg:w-[50%] lg:mr-110 w-[10%] mr-28  grid gap-3 pb-3    ">
                 <h3 className=" text-white text-[24px] font-medium font-sans  w-80">More Reasons to Join</h3>
 
                 <div className=" lg:flex grid  w-[50%] lg:w-[61%] gap-4   ">
