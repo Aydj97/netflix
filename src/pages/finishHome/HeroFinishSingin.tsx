@@ -23,7 +23,7 @@ const HeroFinishSingin = () => {
             </p>
             <div className=" lg:flex gap-2 grid  md:flex justify-center items-center ">
               {/* <input type="" placeholder=" Email address"  className="border border-[#616161] p-2 lg:w-99.75 rounded-[5px]"/> */}
-              <NavLink to="/ step1" className=" pl-10 lg:pl-0 md:pl-0">
+              <NavLink to="/ step1" className=" pl- lg:pl-0 md:pl-0">
                 
                 <button className=" flex gap-4  lg:w-59 h-14 bg-[#e60914] justify-center items-center text-[#ffffff] font-bold lg:text-[23px] p-2 lg:p-0 rounded-sm">
                   Finish Sign-Up
