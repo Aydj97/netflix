@@ -2,11 +2,11 @@
 const More = () => {
   return (
     <div className="w-full  bg-[#000000]  ">
-        <div className="w-[30%] flex items-center justify-center ml-2 lg:w-[99%] pt-6  ">
+        <div className="w-[30%] flex items-center justify-center ml- lg:w-[99%] pt-6  ">
             <div className=" w-[85%]  grid gap-3 pb-3    ">
                 <h3 className=" text-white text-[24px] font-medium font-sans  w-80">More Reasons to Join</h3>
 
-                <div className=" lg:flex grid  w-[90%] lg:w-[61%] gap-4   ">
+                <div className=" lg:flex grid  w-[80%] lg:w-[61%] gap-4   ">
                     <div className="bg-[linear-gradient(149deg,#192247_0%,#210e17_96.86%)] text-white grid  gap-8 min-h-50 rounded-2xl min-w-2 p-2 pt-6 lg:w-[77%] lg:h-70 w-105 md:w-180 ">
                         <div className=" flex flex-wrap gap-2 lg:w-67 w-103 pl-5 lg:pl-0 md:pl-13 md:w-150 ">
                             <h3 className="lg:text-[23px] font-bold lg:w-58 text-[22px] w-99 md:w-210 md:text-[33px]">Enjoy on your TV</h3>
