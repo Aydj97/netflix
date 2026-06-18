@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 function Finish() {
   return (
     <div className="bg-[#000000] w-full flex  items-center pt-20 pb-20">
-            <div className=" flex flex-col  items-center  lg:w-[31%] w-[31%] gap-4 md:w-[60%]">
+            <div className=" flex flex-col  items-center  lg:w-[31%] w-[31%] gap-4 md:w-[60%] pl-30 lg:pl-0 md:pl-0 md:pr-54 pr-0 lg:pr-0">
             {/* <p className="text-center lg:w-[79%] text-white tracking-tight font-medium md:w-220">
               Ready to watch? Enter your email to create or restart your
               membership.
@@ -12,7 +12,7 @@ function Finish() {
               {/* <input type="" placeholder=" Email address"  className="border border-[#616161] p-2 lg:w-267 h-15 md:w-300 font-semibold   text-white rounded-[5px]"/> */}
               <NavLink to="/ homepage" className=" pl-10 lg:pl-0 md:pl-0">
                 
-                <button className=" flex gap-4  lg:w-59 h-14  bg-[#e60914] justify-center items-center text-[#ffffff] font-bold font-sans lg:text-[23px] p-2 lg:p-0 md:w-39 rounded-sm">
+                <button className=" flex gap-4  lg:w-59 h-14 w-46   bg-[#e60914] justify-center items-center text-[#ffffff] font-bold font-sans lg:text-[23px] p-2 lg:p-0 md:w-50 rounded-sm">
 
                     Finish Sign-Up
                   

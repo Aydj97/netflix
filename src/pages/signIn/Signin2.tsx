@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom"
 const Signin2 = () => {
   return (
       <div className=" border-t flex justify-center  w-full h-screen text-white pl-58 ">
-      <div className=" justify-center w-[95] items-center p-10">
+      <div className=" justify-center w-[9] items-center p-10">
         <div className=" grid gap-10  justify-center items-center w-full">
-          <div className="w-[90%] justify-center items-center grid gap-5 ">
-            <div className=" grid gap-4 justify-center w-[70%] ">
+          <div className="lg:w-[90%] w-[30%] md:w-[55%] justify-center items-center grid gap-5 ">
+            <div className=" grid gap-4 justify-center lg:w-[70%] w-[90%] ">
               <h6 className="text-[32px] font-bold font-sans">Tap the link in your email</h6>
 
               <span className=" text-[16px] font-medium text-[#ffffff] font-sans ">We sent a sign-up link to the email below. Simply tap the link to create your account.</span>
               
             </div>
 
-            <div className=" w-[76%] flex flex-col justify-center items-center">
+            <div className=" lg:w-[76%] w-[99%] flex flex-col justify-center items-center">
               
                 <div className="w-[70%]  gap-8 grid   justify-center items-center ">
                   <input
@@ -40,9 +40,9 @@ const Signin2 = () => {
             </div>
           </div>
 
-          <div>
+          <div className="  ">
                  
-                 <p className="">Get Help <span></span> </p>
+                 <p >Get Help <span></span> </p>
 
                 {/* <span className="text-[#ffffff80] w-76 lg:w-full md:w-full">This page is protected by Google reCAPTCHA to ensure you're not a bot.</span> */}
 
