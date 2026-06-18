@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom"
 const Signin2 = () => {
   return (
       <div className=" border-t flex justify-center  w-full h-screen text-white pl-58 ">
-      <div className=" justify-center w-[9] items-center p-10">
-        <div className=" grid gap-10  justify-center items-center w-full">
-          <div className="lg:w-[90%] w-[30%] md:w-[55%] justify-center items-center grid gap-5 ">
+      <div className=" justify-center w-[70%] items-center p-10">
+        <div className=" grid gap-10  justify-center items-center ">
+          <div className="lg:w-[90%] w-[19%] md:w-[55%] justify-center items-center grid gap-5 ">
             <div className=" grid gap-4 justify-center lg:w-[70%] w-[90%] ">
               <h6 className="text-[32px] font-bold font-sans">Tap the link in your email</h6>
 
@@ -40,7 +40,7 @@ const Signin2 = () => {
             </div>
           </div>
 
-          <div className="  ">
+          <div className=" mr-7 lg:mr-0 md:mr-0 ">
                  
                  <p >Get Help <span></span> </p>
 
