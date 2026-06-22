@@ -8,6 +8,7 @@ import Signin2 from "../pages/signIn/Signin2";
 import FinishSignin from "../pages/finishHome/FinishSigninComp";
 import Step1 from "../pages/finishHome/Step1";
 import HomePageComp from "../pages/home/HomePageComp";
+import SignUpLayout from "../layout/SignUpLayout";
 
 export const element = createBrowserRouter([
   {
@@ -67,7 +68,7 @@ export const element = createBrowserRouter([
 
   {
     path: "/ Finishsignin",
-    element: <SignInLayout />,
+    element: <HomeLayout />,
     children: [
       {
         index: true,
@@ -78,7 +79,7 @@ export const element = createBrowserRouter([
 
   {
     path: "/ step1",
-    element: <SignInLayout />,
+    element: <SignUpLayout />,
     children: [
       {
         index: true,

@@ -1,12 +1,14 @@
 // import React from 'react'
 
 import { Outlet } from "react-router-dom"
-import { Footer, Header } from "../components"
+import { Footer,   } from "../components"
+
+import HeaderSigin from "../components/block/HeaderSigin"
 
 const SignInLayout = () => {
   return (
     <div className="bg-[url('/images/bg-sigin.png')] bg-center bg-cover ">
-        <Header/>
+        <HeaderSigin/>
         
         <Outlet/>
         <Footer/>
